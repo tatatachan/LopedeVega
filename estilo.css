@@ -1,14 +1,15 @@
 @charset "utf-8";
 body{
-    background: ;
-    background-color: pink;
-    background-size: ;
+   
+
+    background-color:pink;
+    background-size:;
     font-family:Arial;
-    font-size:30;
+    font-size:60;
     text-align:center
 
 }
-h1{font-size:40;
+h1{font-size:80;
 text-transform: capitalize}
 
 div{
@@ -16,14 +17,18 @@ div{
     margin:2px;
     font-weight: 300}
     div.s1{
-        background: ;
+        background: url(manchas.png);
         color:white
     }
-    div.s2{background:  ;
+
+    div.s2{background:
+        url("fuego.svg") no-repeat bottom right, url("fuego.svg") no-repeat bottom left, url("fondos/tallos.jpg");
+        
     color:orange}
-    div.s3{background: ;
-    background-size: ;
-color:brown}
+
+    div.s3{background:  url("fondos/ojo.svg") no-repeat center, url("fondos/hexagonos.jpg");
+        background-size: contain, auto;
+        color:brown}
 div.s4{padding-bottom: 2ch;
     background: ;
     background-size:  ;
