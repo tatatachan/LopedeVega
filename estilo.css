@@ -2,20 +2,21 @@
 body{
    
 
-    background-color:pink;
-    background-size:;
-    font-family:Arial;
-    font-size:60;
-    text-align:center
+    background: url("corazon-1.svg") repeat-y top left, url("corazon-2.svg") repeat-y top right;
+  background-color:pink;
+  background-size: 150px;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
 
 }
-h1{font-size:80;
+h1{font-size:30px;
 text-transform: capitalize}
 
 div{
     border:black 3px solid;
-    margin:2px;
-    font-weight: 300}
+    margin:10px,140px;
+    font-weight: bold}
     div.s1{
         background: url("manchas.png");
         color:white
@@ -29,6 +30,7 @@ div{
     div.s3{background:  url("ojo.svg") no-repeat center, url("hexagonos.jpg");
         background-size: contain, auto;
         color:brown}
+
 div.s4{padding-bottom: 50px;
     background: url("caballo.svg") repeat-x bottom, url("estrellas.png") repeat;
     background-size: 100px, auto;
