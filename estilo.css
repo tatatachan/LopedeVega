@@ -17,20 +17,20 @@ div{
     margin:2px;
     font-weight: 300}
     div.s1{
-        background: url(manchas.png);
+        background: url("manchas.png");
         color:white
     }
 
     div.s2{background:
-        url("fuego.svg") no-repeat bottom right, url("fuego.svg") no-repeat bottom left, url("fondos/tallos.jpg");
+        url("fuego.svg") no-repeat bottom right, url("fuego.svg") no-repeat bottom left, url("tallos.jpg");
         
     color:orange}
 
-    div.s3{background:  url("fondos/ojo.svg") no-repeat center, url("fondos/hexagonos.jpg");
+    div.s3{background:  url("ojo.svg") no-repeat center, url("hexagonos.jpg");
         background-size: contain, auto;
         color:brown}
-div.s4{padding-bottom: 2ch;
-    background: ;
-    background-size:  ;
-    color:green
+div.s4{padding-bottom: 50px;
+    background: url("caballo.svg") repeat-x bottom, url("estrellas.png") repeat;
+    background-size: 100px, auto;
+    color: green;
 }
