@@ -1,0 +1,31 @@
+@charset "utf-8";
+body{
+    background: ;
+    background-color: pink;
+    background-size: ;
+    font-family:Arial;
+    font-size:30;
+    text-align:center
+
+}
+h1{font-size:40;
+text-transform: capitalize}
+
+div{
+    border:black 3px solid;
+    margin:2px;
+    font-weight: 300}
+    div.s1{
+        background: ;
+        color:white
+    }
+    div.s2{background:  ;
+    color:orange}
+    div.s3{background: ;
+    background-size: ;
+color:brown}
+div.s4{padding-bottom: 2ch;
+    background: ;
+    background-size:  ;
+    color:green
+}
